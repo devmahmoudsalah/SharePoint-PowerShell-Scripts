@@ -1,3 +1,6 @@
+# review accounts from managed account
+#review service from services.msc
+
 Add-PSSnapin microsoft.sharepoint.powershell
 
 New-SPServiceApplicationPool -Name SearchServiceWebApplicationPooltest -Account DEV\administrator
